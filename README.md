@@ -120,10 +120,10 @@ DRBCCC Hindu College
 
 **Project Guide**  
 Asst. Prof. Jansi  
-*Department of Computer Science*
+*Department of Computer Applications*
 
 **Academic Year**  
-2023-2024
+2022-2025
 
 ## 👥 Team Members
 | Role | Name | Contribution |
@@ -132,7 +132,7 @@ Asst. Prof. Jansi
 | Developer | Santhosh Raj V | UI Development, Responsive Design |
 | Developer | Magesh Kumar T | Error Handling, Performance Optimization |
 | Developer | Saran P | Content Management, Documentation |
-
+| Developer | Kammalakannan M M | Content Management, Documentation |
 ## 📚 API Reference
 - **News API Endpoint**: `everything`
 - **Rate Limit**: 100 requests/day (free tier)
