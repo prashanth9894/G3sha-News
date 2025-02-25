@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> G3sha News</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="main-nav">
+            <div class="left-section">
+                <a href="" class="company-logo">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <h1 class="site-title">G3sha News</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="hover-link nav-item" id="general" onClick="onNavItemClick('general')">General</li>
+                    <li class="hover-link nav-item" id="business" onClick="onNavItemClick('business')">Business</li>
+                    <li class="hover-link nav-item" id="technology" onClick="onNavItemClick('technology')">Technology</li>
+                    <li class="hover-link nav-item" id="politics" onClick="onNavItemClick('politics')">Politics</li>
+                    <li class="hover-link nav-item" id="entertainment" onClick="onNavItemClick('entertainment')">Entertainment</li>
+                    <li class="hover-link nav-item" id="chennai" onClick="onNavItemClick('chennai')">Chennai</li>
+
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="news-input" id="search-text" placeholder="e.g. Science">
+                <button class="search-button" id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="cards-container container flex" id="cardscontainer">
+        </div>
+    </main>
+
+
+<template id="template-news-card">
+    <div class="card">
+        <div class="card-header">
+           
+            <img 
+                src="" 
+                alt="news image" 
+                id="news-img"
+                onerror="this.src='./images/fallback-image.jpg'"
+            >
+        </div>
+        <div class="card-content">
+            <h3 id="news-title">G3sha</h3>
+            <h6 class="news-source" id="news-source">G3sha news</h6>
+            <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</template>
+
+<footer>
+    <div class="footer-main">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About G3sha News</h3>
+                <p>Your trusted source for the latest news and updates from around the world.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Academic Credits</h3>
+                <p>DRBCCC Hindu College</p>
+                <p>Project Guide: Asst. Prof. Jansi</p>
+                <p>News API Integration Project</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Project Team</h3>
+                <ul>
+                    <li>Prashanth N (Lead)</li>
+                    <li>Santhosh Raj V</li>
+                    <li>Magesh Kumar T</li>
+                    <li>Saran P</li>
+                    <li>Kamalakannan M M</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#" onclick="onNavItemClick('technology')">Technology</a></li>
+                    <li><a href="#" onclick="onNavItemClick('business')">Business</a></li>
+                    <li><a href="#" onclick="onNavItemClick('entertainment')">Entertainment</a></li>
+                    <li><a href="#" onclick="onNavItemClick('politics')">Politics</a></li>
+                    <li><a href="#" onclick="onNavItemClick('chennai')">Chennai</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2025 G3sha News. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
