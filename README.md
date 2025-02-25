@@ -42,12 +42,12 @@ G3sha News is a responsive web application that aggregates news articles from va
 
 
 
-Here's the complete README.md code incorporating all your project details and academic information:
+ 
 
-```markdown
+ 
 # G3sha News - News Aggregator Platform
 
-![G3sha News Banner](./images/logo.png)
+
 
 A modern news aggregation website developed as part of academic curriculum at DRBCCC Hindu College, showcasing real-time news integration and web development fundamentals.
 
@@ -175,22 +175,3 @@ This project is licensed under the academic use license of DRBCCC Hindu College.
 © 2025 G3sha News Team. Unauthorized distribution prohibited.
 ```
 
-This README includes:
-
-1. Academic credentials and project context
-2. Detailed technology stack with badges
-3. Team contribution matrix
-4. Complete API documentation
-5. Professional installation guide
-6. Contribution workflow
-7. License information matching your footer
-8. Responsive design documentation
-
-To make this README complete, you need to:
-
-1. Add project screenshots in the `images/` folder
-2. Update repository URLs
-3. Add browser compatibility matrix if needed
-4. Include performance metrics (if measured)
-
-Would you like me to add any specific section or modify the existing content?
