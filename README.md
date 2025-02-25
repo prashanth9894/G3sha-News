@@ -1,4 +1,4 @@
-# G3sha News - News Aggregator Platform
+# G3sha News - InsightStream : Navigate the News
 
 ![G3sha News Banner](./InsightStream/-G3sha-NEWS-main/images/logo.png)
 
@@ -45,7 +45,7 @@ G3sha News is a responsive web application that aggregates news articles from va
  
 
  
-# G3sha News - News Aggregator Platform
+# G3sha News - InsightStream : Navigate the News
 
 
 
