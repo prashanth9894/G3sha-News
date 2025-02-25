@@ -1,6 +1,6 @@
 # G3sha News - News Aggregator Platform
 
-![G3sha News Banner](./images/logo.png)
+![G3sha News Banner](./InsightStream/-G3sha-NEWS-main/images/logo.png)
 
 A modern news aggregation website developed as part of academic curriculum at DRBCCC Hindu College, showcasing real-time news integration and web development fundamentals.
 
